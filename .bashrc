@@ -107,3 +107,7 @@ export PATH=$PATH:~/.local/share/kyrat/bin
 
 
 ## ALIASES
+
+# COMPLETION
+
+complete -F _ssh kyrat
