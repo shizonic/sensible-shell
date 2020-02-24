@@ -13,6 +13,9 @@ fi
 
 ## GENERAL OPTIONS ##
 
+# Use vim mode
+set -o vi
+
 # Prevent file overwrite on stdout redirection
 # Use `>|` to force redirection to an existing file
 set -o noclobber
